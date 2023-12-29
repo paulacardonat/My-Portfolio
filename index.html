@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <img src="media/logo.png" alt="Logo" height="80px">
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="cv/perfil.jpg" alt="Perfil" height="240">
+            </div>
+            <h1>Paula Cardona</h1>
+            <h2>Desarrolladora Full-Stack</h2>
+            <div class="redes">
+                <a href="https://www.github.com/paulacardonat" target="_blank" alt="Entrar en git"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/paulact" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Paula Cardona.</span> Desarolladora Full-Stack, con el objetivo profesional de aumentar y aplicar mis conocimientos adquiridos en empresas. Graduada en Turismo con experiencia laboral en el sector, actualmente enfocada a la programación ya que siempre me ha gustado la tecnología.</p>
+
+            <div class="fila">
+                <!-- intereses -->
+                <div class="col col-intereses">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-leaf"></i>
+                            <span>SPRING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-angular"></i>
+                            <span>ANGULAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-java"></i>
+                            <span>JAVA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-css3"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-node"></i>
+                            <span>NODE JS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>TYPESCRIPT</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MYSQL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-square-git"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-list-check"></i>
+                            <span>JUnit</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gear"></i>
+                            <span>APIRest</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-file-export"></i>
+                            <span>Postman</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                            <span>Agile</span>
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1HRhQLE1nBOvyomcs9n3uHYVM8kAOfPR3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Soft-Skills</h2>
+            
+            <div class="fila">
+                <!-- SKILLS -->
+                <div class="col col-skills">
+                    <div class="contenedor-skills">
+                        
+                        <div>
+                            <img class="img-skills" src="media/asertividad.png" alt="" width="350px">
+                            
+                        </div>
+                        <div>
+                            <img class="img-skills" src="media/comunicacion.png" alt="" width="350px">
+                            
+                        </div>
+                        <div>
+                            <img class="img-skills" src="media/creativa.png" alt="" width="350px">
+                            
+                        </div>
+                        <div>
+                            <img class="img-skills" src="media/empatia.png" alt="" width="350px">
+                            
+                        </div> 
+                        <div>
+                            <img class="img-skills" src="media/equipo.png" alt="" width="350px">
+                            
+                        </div>
+                        <div>
+                            <img class="img-skills" src="media/positiva.png" alt="" width="350px">
+                            
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Currículum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Experiencia profesional</h3>
+                    <div class="item izq">
+                        <h4>Web Devel﻿oper Full-Stack
+                        </h4>
+                        <span class="casa">Mytic Innova </span>
+                        <span class="fecha">Septiembre 2022 - Actualidad
+                        </span>
+                        <p>Empresa líder la gestión de la automoción. Desarrollo con tecnologías Java y Spring.
+                            Creación de servicios RESTful, con arquitectura de microservicios y base de datos MySQL. Interfaces de usuario interactivas utilizando Angular, HTML y CSS para mejorar la experiencia del usuario.
+                            Mantenimiento y mejora continua de microservicios, aplicando buenas prácticas como método Agile y pruebas con JUnit y Mockito.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Recepcionista y Relaciones Públicas</h4>
+                        <span class="casa">Hotel Boutique Edelweiss 4*</span>
+                        <span class="fecha">2022</span>
+                        <p>Gestión de reservas internacionales en diferentes canales: Booking, Expedia, Weekendesk, Airbnb.
+                            Check in/check out y comunicación con los huéspedes, en ocasiones en inglés y francés.
+                            Gestión de redes sociales, web y mail de la empresa y ayuda a otros servicios como Wedding Planner y restauración. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Profesora TIC Programa de Personas Mayores </h4>
+                        <span class="casa">Fundació ”La Caixa”</span>
+                        <span class="fecha">2019</span>
+                        <p>Enseñanza y mejora de las competencias digitales: Iniciación a la informática, comunicación en la red, trámites por internet, PhotoShop.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Educación</h3>
+                    <div class="item der">
+                        <h4>Bootcamp Web Developer Full-Stack</h4>
+                        <span class="casa">Universidad de Barcelona</span>
+                        <span class="fecha">2022</span>
+                        <p>Maquetación web con HTML, CSS y JavaScript, Front-End Development con ReactJS en SPA (Single Page Application), Back-End con NodeJS y ExpressJS. Creación de bases de datos mediante Mongo DB y Moongose. Proyecto final propio: PA PER TU (panadería a domicilio)</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Máster en Turismo Urbano</h4>
+                        <span class="casa">Universidad de Barcelona</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Título de Trabajo Final de Máster " La digitalización de las oficinas de turismo. Retos y oportunidades".
+                        Beca Generalitat de Catalunya. Departamento de Empresa y Trabajo. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Grado en Turismo</h4>
+                        <span class="casa">EU Mediterrani</span>
+                        <span class="fecha">2016 - 2020</span>
+                        <p>Título de Trabajo Final de Grado "Le Tourisme Fluvial et sa promotion dans le sud-ouest de la France".  (Calificación; 10)</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="contenedor-contacto">
+                <!-- Formulario -->
+                <form
+                action="https://formspree.io/f/xoqgakev"
+                method="POST">
+                    <div class="col">
+                        <input type="text" placeholder="Tú Nombre" name="name">
+                        <input type="email" placeholder="Dirección de correo" name="email">
+                        <input type="text" placeholder="Tema" >
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="submit"> 
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                </form>
+                <div class="contenedor-info">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Teléfono: 648 27 03 66
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: paula.catri11@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.github.com/paulacardonat" target="_blank" alt="Entrar en git"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/paulact" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
